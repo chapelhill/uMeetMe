@@ -1,0 +1,19 @@
+.teammembers h5{
+    display: inline;
+}
+
+body img{
+    width: 60%;
+    height: 60%;
+    /* top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -250px; */
+    margin-left: 225px;
+    
+}
+
+h1 {
+    text-align:center;
+    color:dodgerblue;
+}

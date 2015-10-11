@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="signup.css" >
+        <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="backend.js"></script>
+        <script type="text/javascript" src="signup.js"></script>
+    </head>
+
+    <body>
+      <div class="header-section">
+        <div class="w-container container">
+          <h1>uMeetMe</h1>
+          <p class="subtitle">Signup</p>
+            <form class="signup-form" name="wf-form-signup-form" data-name="Signup Form">
+              <div class="the-big-div2">
+              <div>
+               Email: <input class="w-input field" type="text" placeholder="Enter your email address" id="email" data-name="Email" required="required">
+               Username: <input class="w-input field" type="text" placeholder="Enter your username" id="username"  required="required"> 
+               Password: <input class="w-input field" type="password" placeholder="Enter your password" id="password"  required="required">
+              </div>
+              </div>
+              <div class="the-big-div">
+              <div class="gender-div">
+              <h3 id="gender"> Gender </h3>
+              <select name="sex" id="sex">
+                  <option  value="male">  Male  </option>
+                   <option  value="female"> Female </option>
+              </select>
+              </div>
+              <div class="interest-div">
+                 <h3 class="interest"> Interested In </h3>
+              <select name="sex" id="interest">
+                  <option  value="male">  Male </option>
+                   <option  value="female">  Female </option>
+                  <option  value="both"> Both </option>
+              </select>
+              </div>
+              <div class="age-div">
+                <h3 class="age"> Enter your age: </h3>
+                <input id = "age" type = "number"></input>
+              <br>
+              </div>
+              </div>
+              <input id="createaccount" class="register" type="button" value="Create an account!" data-wait="Please wait..." onclick="onSignup()">
+      
+            </form>
+  
+          </div>
+             
+        </div>
+      </div>
+      
+      
+      <br>
+      <div class="social-section">
+        <div class="w-container">
+          <h2>Spread the word about uMeetMe!</h2>
+          <div class="share-wrapper">
+            <div class="w-widget w-widget-facebook share-btn">
+              <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fwebflow&amp;layout=box_count&amp;action=like&amp;show_faces=false&amp;share=false" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 55px; height: 65px;"></iframe>
+            </div>
+            <div class="w-widget w-widget-twitter share-btn">
+              <iframe src="https://platform.twitter.com/widgets/tweet_button.html#url=http%3A%2F%2Fwebflow.com&amp;counturl=webflow.com&amp;text=Check%20out%20this%20site&amp;count=vertical&amp;size=m&amp;dnt=true" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 55px; height: 62px;"></iframe>
+            </div>
+            <div class="w-widget w-widget-gplus share-btn">
+              <div class="g-plusone" data-href="http://webflow.com" data-size="tall" data-annotation="bubble" data-width="120" data-recommendations="false" id="___plusone_0" style="width: 50px; height: 60px; text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; background-position: initial initial; background-repeat: initial initial;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-section">
+      </div>
+    </body>
+
+
+</html>

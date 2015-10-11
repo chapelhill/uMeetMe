@@ -1,0 +1,89 @@
+body {
+  background-color: #3f474d;
+  font-family:'Open Sans', sans-serif;
+  background: deepskyblue;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.field {
+  width: 40%;
+  display: block;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.signup-form {
+  background: lightsalmon;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+.register {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 20%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+.the-big-div {
+  display: inline-block;
+  width: 20%;
+}
+
+.the-big-div2 {
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.age-div {
+ /* display: inline-block; */
+  background: lightsalmon;
+}
+
+.gender-div {
+  /* display: inline-block; */
+  background: lightsalmon;
+}
+
+.interest-div {
+  /* display: inline-block; */
+  background: lightsalmon;
+}
+
+.social-section {
+  text-align: center;
+}
+
+.share-btn {
+  display: inline-block;
+}
+
+#gender {
+  margin-bottom: -2px;
+}
+
+.interest {
+  margin-bottom: -2px;
+}
+
+.age {
+  margin-bottom: -2px;
+}

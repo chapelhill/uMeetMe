@@ -1,0 +1,54 @@
+body {
+    background: skyblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.user {
+    background: lightsalmon;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.user-username {
+    font-size: 18px;
+    color: blue;
+}
+
+.user-age {
+    color: firebrick;
+}
+
+.user-gender {
+    color: darkblue;
+}
+
+.user-interest {
+    color: fuschia;
+}
+
+.user-email {
+}
+
+.user-has-dated {
+    display: block;
+    
+}
+
+.user-review {
+    display: block;
+}
+
+.user-date-pending {
+    display: block;
+}
+
+.user-data-reviews {
+    display:block;
+}

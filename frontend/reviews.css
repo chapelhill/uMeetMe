@@ -1,0 +1,18 @@
+body {
+    background: skyblue;
+}
+.review-box {
+    background: lightsalmon;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    border-radius: 25px;
+}
+
+.review-box-reviewer {
+    color: blue;
+    font-size: 22px;
+    text-decoration: underline;
+    margin: 2px;
+}
