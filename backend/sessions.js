@@ -6,7 +6,7 @@ var $ = require('jquery-latest');
 var SESSION_DIE_TIME = 1000 * 60 * 30; // 30 minutes
  
 // For debugging purposes. We want to manipulate everything.
-var SPECIAL_BACKDOOR_SESSION = '_';
+//var SPECIAL_BACKDOOR_SESSION = '_';
 
 var SESSIONS = {};
 var ACTIVE_SESSIONS = {};
@@ -93,9 +93,11 @@ exports.authenticate = function(username, password) {
  * Throws an exception if the token is invalid.
  */
 exports.check_site_access = function(token) {
+    /*
     if (token.indexOf(SPECIAL_BACKDOOR_SESSION) === 0) {
         return token.slice(SPECIAL_BACKDOOR_SESSION.length);
     }
+    */
     
     if (token in SESSIONS) {
         return SESSIONS[token];
