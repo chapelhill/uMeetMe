@@ -26,6 +26,7 @@ function read_data() {
 }
 
 read_data();
+setInterval(dump_data, 5 * 60 * 1000);
  
 exports.DateError = function(message) {
     this.message = "Error in dating: " + message;
